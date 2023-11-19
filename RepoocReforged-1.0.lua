@@ -1,5 +1,7 @@
 local MAJOR, MINOR = 'RepoocReforged-1.0', 3
 local lib, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
+assert(LibStub, MAJOR.." requires LibStub")
+
 if not lib then return end
 if not ElvUI then return end
 

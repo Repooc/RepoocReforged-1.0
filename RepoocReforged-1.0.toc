@@ -7,4 +7,5 @@
 ## X-Curse-Project-ID: 
 ## X-WoWI-ID: 
 
+LibStub\LibStub.lua
 RepoocReforged-1.0.lua
