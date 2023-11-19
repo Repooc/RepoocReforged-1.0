@@ -6,8 +6,10 @@ local E, L, _, P, _ = unpack(ElvUI)
 local ACH = E.Libs.ACH
 
 local SUPPORTERS = {
+	'|cFF08E8DEBotanica|r',
 	E:TextGradient('Eltreum', 0.50, 0.70, 1, 0.67, 0.95, 1),
 	'Jiberish',
+	E:TextGradient('Simpy but my name needs to be longer.', 0.18,1.00,0.49, 0.32,0.85,1.00, 0.55,0.38,0.85, 1.00,0.55,0.71, 1.00,0.68,0.32),
 	'|cFFb8bb26Thurin|r',
 	'Tsxy',
 }
