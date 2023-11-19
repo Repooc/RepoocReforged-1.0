@@ -1,6 +1,7 @@
-local MAJOR, MINOR = "RepoocReforged-1.0", 1
+local MAJOR, MINOR = 'RepoocReforged-1.0', 2
 local lib, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
-if not (lib or ElvUI) then return end
+if not lib then return end
+if not ElvUI then return end
 
 local E, L, _, P, _ = unpack(ElvUI)
 local ACH = E.Libs.ACH
@@ -12,6 +13,7 @@ local SUPPORTERS = {
 	E:TextGradient('Simpy but my name needs to be longer.', 0.18,1.00,0.49, 0.32,0.85,1.00, 0.55,0.38,0.85, 1.00,0.55,0.71, 1.00,0.68,0.32),
 	'|cFFb8bb26Thurin|r',
 	'Tsxy',
+	'Test',
 }
 
 local function SortList(a, b)
