@@ -47,7 +47,5 @@ function lib:LoadMainCategory()
 		RRPHelp.args.supporters = Supporters
 		Supporters.inline = true
 		Supporters.args.string = ACH:Description(SUPPORTER_STRING, 1, 'medium')
-
-		rrp.args.hop = RRPHelp
 	end
 end
