@@ -1,4 +1,4 @@
-## Interface: 100206
+## Interface: 110007, 40401, 11505
 ## Author: Repooc
 ## Version: 1.0
 ## Title: Lib: RepoocReforged-1.0

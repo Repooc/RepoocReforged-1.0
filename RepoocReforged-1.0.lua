@@ -1,4 +1,4 @@
-local MAJOR, MINOR = 'RepoocReforged-1.0', 3
+local MAJOR, MINOR = 'RepoocReforged-1.0', 4
 local lib, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 assert(LibStub, MAJOR.." requires LibStub")
 
